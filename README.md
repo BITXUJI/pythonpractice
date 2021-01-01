@@ -1,3 +1,3 @@
 # pythonpractice
 ---
--python practice with mosh 
+- python practice with mosh 
