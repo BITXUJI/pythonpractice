@@ -1,3 +1,3 @@
 import requests
-response = requests.get("http://baidu.com")
+response = requests.get("https://api.yelp.com/v3/businesses/search")
 print(response)
