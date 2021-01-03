@@ -18,3 +18,4 @@ assert config.user_profile in browser.page_source
 profile_link = browser.find_element_by_class_name("user-profile-link")
 link_label = profile_link.get_attribute("innerHTML")
 assert config.user_profile in link_label
+browser.quit()
