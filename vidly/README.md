@@ -39,3 +39,11 @@ Python Django
 - python manage.py migrate
 - python manage.py sqlmigrate movies 0001
   - to see operations on sql 
+### The Admin
+- python manage.py runserver 
+- python manage.py createsuperuser
+  - When the last command is runing, open a new terminal and run this command to create a super user
+  - username+email+password
+- Explanation:
+  - movies/admin.py : Register Genre and Movie to the admin
+  - 
