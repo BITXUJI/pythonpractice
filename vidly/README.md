@@ -11,6 +11,6 @@ Python Django
 ### Create an App
 - python manage.py startapp movies
 ### Views
-  - movies/views.py : create function index()
-  - movies/urls.py :created and add urlpatterns(list)
-  - vidly.urls.py :add a new item to urlpatterns 
+- movies/views.py : create function index()
+- movies/urls.py :created and add urlpatterns(list)
+- vidly.urls.py :add a new item to urlpatterns 
