@@ -1,2 +1,4 @@
 .vscode
 vidly/__pycache__
+movies/__pycache__
+movies/migrations/__pycache__
