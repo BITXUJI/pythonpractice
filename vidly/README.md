@@ -56,3 +56,13 @@ Python Django
   - movies/models.py: In class Movie(models.Model) models.Model helps us operate on database  
   - (from django.db import models) models.Model is a database abstraction API
   - movies/views.py : (from .models import Movie) use database API to get the data to display to users
+### Templates
+- Explanation
+  - movies/views.py (from django.shortcuts import render)  we use render function to render a template
+  - Create a fold named template and a file named index.html zen coding
+  - Change to django html to edit movies/templates/index.html
+  - In case of index.html search_path misleading we create a fold named movies under the fold template and move index.html into it 
+- pipenv install pylint-django
+  - Create a file named .pylinrc:
+    - echo load-plugins=pylint-django>.pylinrc 
+  - Let pylint be aware of django 
