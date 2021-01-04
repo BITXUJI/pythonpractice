@@ -46,4 +46,8 @@ Python Django
   - username+email+password
 - Explanation:
   - movies/admin.py : Register Genre and Movie to the admin
-  - 
+### Customizing the Admin
+- Explanation
+  - movies/models.py : Rewrite the magic method __str__ of class Genre to change  views displayed of Genre
+  - movies/admin.py : Create a class GenreAdmin(admin.ModelAdmin) to overwrite the display_list to 'id' 'name' (in administrator views )
+  - movies/admin.py : Create a class MovieAamin(admin.ModelAmin) to overwrite the fields or exclude (in administratror views)
