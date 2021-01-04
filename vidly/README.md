@@ -51,3 +51,8 @@ Python Django
   - movies/models.py : Rewrite the magic method __str__ of class Genre to change  views displayed of Genre
   - movies/admin.py : Create a class GenreAdmin(admin.ModelAdmin) to overwrite the display_list to 'id' 'name' (in administrator views )
   - movies/admin.py : Create a class MovieAamin(admin.ModelAmin) to overwrite the fields or exclude (in administratror views)
+### Database API
+- Explanation
+  - movies/models.py: In class Movie(models.Model) models.Model helps us operate on database  
+  - (from django.db import models) models.Model is a database abstraction API
+  - movies/views.py : (from .models import Movie) use database API to get the data to display to users
