@@ -31,3 +31,11 @@ Python Django
 - python manage.py migrate
   - Migrate the Unapplied migrations to db.sqlite3
   - Apply all migrations: admin,auth.contenttypes, movies,sessions
+### Changing the Models
+- Explanation
+  - movies/models.py : In class movie a new attribute named date_created is added 
+- python manage.py makemigrations
+  - message returned in the terminal: Add field date_created to movie
+- python manage.py migrate
+- python manage.py sqlmigrate movies 0001
+  - to see operations on sql 
