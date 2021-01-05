@@ -86,6 +86,8 @@ Python Django
   - movies/urls.py :Create a new page index
   - movies/views.py: Create a new page content
 ### Getting a Single Object
-- Create a page detail.html in the fold movies/templates/movies/
-- movies/views:Modified the return type of def detail function
-- So we can create make our page movies/{movie_id} look better
+-Explanation
+  - Create a page detail.html in the fold movies/templates/movies/
+  - movies/views:Modified the return type of def detail function
+  - So we can create make our page movies/{movie_id} look better
+  - some tricks in writing html fast: dl>(dt+dd)*3 in html mode (not django html )
