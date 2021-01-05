@@ -85,3 +85,7 @@ Python Django
   - target: click on something to see its details
   - movies/urls.py :Create a new page index
   - movies/views.py: Create a new page content
+### Getting a Single Object
+- Create a page detail.html in the fold movies/templates/movies/
+- movies/views:Modified the return type of def detail function
+- So we can create make our page movies/{movie_id} look better
