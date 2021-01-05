@@ -110,3 +110,8 @@ Python Django
     - use excludes to hide some attribute that you don't want to show in api 
   - vidly/settings.py: register api into installed apps
   - vidly/urls.py: register the path of api to the urls
+### Adding the Home Page
+- Explanation
+  - templates/home.html: homepage
+  - vidly/views.py : redirect request to the homepage templates/home.html
+  - vidly/urls.py : register the path of homepage to the urls
