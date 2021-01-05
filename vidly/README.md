@@ -115,3 +115,19 @@ Python Django
   - templates/home.html: homepage
   - vidly/views.py : redirect request to the homepage templates/home.html
   - vidly/urls.py : register the path of homepage to the urls
+### Preparing for Deployment
+- Explanation
+  -  heroku.com : Sign up 
+  -  heroku cli : download installer and install 
+- git --version
+- heroku --version
+- pipenv install gunicorn
+  - echo web: gunicorn vidly.wsgi >Procfile
+  - mkdir static (gitignored)
+- vidly/settings.py :add  STATIC_ROOT
+- python manage.py collectstatic
+  - copy files to static fold
+- pipenv install whitenoise
+  - whitenoice: Radically simplified static file serving for WSGI applications
+  - whitenoice with django:document
+    - vidly/settings.py :add a middleware named WhiteNoise 
