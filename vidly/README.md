@@ -101,3 +101,12 @@ Python Django
 - Explanation
   - movies/urls.py : add app_name="movies" and cut the name 
   - movies/templates/movies/index.html :add referencing urls through \<a href="{% url 'movies:detail' movie.id %}"\> ... \</a\>
+### Creating APIs
+- pipenv install django-tastypie
+- python manage.py startapp api
+- Explanation
+  - Create a new app named api 
+  - api/models.py: create a class MovieResource(ModelResource) for api
+    - use excludes to hide some attribute that you don't want to show in api 
+  - vidly/settings.py: register api into installed apps
+  - vidly/urls.py: register the path of api to the urls
