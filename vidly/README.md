@@ -132,4 +132,20 @@ Python Django
   - whitenoice with django:document
     - vidly/settings.py :add a middleware named WhiteNoise 
 ### Deploying to Heroku
-- 
+- git init
+- git add .
+- git commit -m "Initial commit"
+- heroku login
+- heroku create
+  - A new heroku app is create
+  - Git repository is created
+- git push heroku master
+  - auto install python etc ...
+  - auto install whitenoise etc..
+- heroku ps:scale web=1
+  - allocate a web server
+- vidly/setting.py: add host to the ALLOWED_HOSTS list
+- git add .
+- git commit -m "Add Heroku app to allowed hosts."
+- git push heroku master
+  - refresh the web page
