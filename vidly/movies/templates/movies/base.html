@@ -11,8 +11,16 @@
     <title>Vidly</title>
   </head>
   <body>
-    {% block content %}
-    {% endblock %}
+    <!-- As a link -->
+    <nav class="navbar navbar-light bg-light">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="#">Vidly</a>
+        </div>
+    </nav>
+    <main class="container">
+        {% block content %}
+        {% endblock %}
+    </main>
     <!-- Optional JavaScript; choose one of the two! -->
 
     <!-- Option 1: Bootstrap Bundle with Popper -->

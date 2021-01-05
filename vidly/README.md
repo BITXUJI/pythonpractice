@@ -67,6 +67,11 @@ Python Django
     - echo load-plugins=pylint-django>.pylinrc 
   - Let pylint be aware of django 
 ### Adding Bootstrap
-- getbootstrap.com/docs 
-- movies/templates/movies/base.html: added and a template was pasted into it from url above
-- link base.html and index.html : to make our page look better.
+-Explanation
+  - getbootstrap.com/docs 
+  - movies/templates/movies/base.html: added and a template was pasted into it from url above
+  - link base.html and index.html : to make our page look better.
+### Customizing the layout
+-Explanation
+  - https://getbootstrap.com/docs/5.0/components/navbar/
+  - add navbar container table-hover table-bordered : make our page look better.
