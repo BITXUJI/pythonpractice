@@ -131,3 +131,5 @@ Python Django
   - whitenoice: Radically simplified static file serving for WSGI applications
   - whitenoice with django:document
     - vidly/settings.py :add a middleware named WhiteNoise 
+### Deploying to Heroku
+- 
