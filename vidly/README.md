@@ -75,3 +75,8 @@ Python Django
 -Explanation
   - https://getbootstrap.com/docs/5.0/components/navbar/
   - add navbar container table-hover table-bordered : make our page look better.
+### Sharing a Template
+- Explanation
+  - Create a fold named templates under . fold and move movies/templates/movie/base.html to templates/ fold 
+  - vidly/settings.py : TEMPLATES['DIRS'] is modified to add the path templates/ created above to the search path.
+  - So we can share one templates among multiple apps
