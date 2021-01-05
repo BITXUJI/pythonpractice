@@ -92,7 +92,8 @@ Python Django
   - So we can create make our page movies/{movie_id} look better
   - some tricks in writing html fast: dl>(dt+dd)*3 in html mode (not django html )
 ### Raising 404 Errors
-- movies.views.py :
-  - from django.shortcuts import render, get_object_or_404
-  - from django.http import HttpResponse, Http404
-- 'get_object_or_404' helps us easily raise 404 Errors
+- Explanation
+  - movies.views.py :
+    - from django.shortcuts import render, get_object_or_404
+    - from django.http import HttpResponse, Http404
+  - 'get_object_or_404' helps us easily raise 404 Errors
