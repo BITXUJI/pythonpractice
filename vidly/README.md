@@ -97,3 +97,7 @@ Python Django
     - from django.shortcuts import render, get_object_or_404
     - from django.http import HttpResponse, Http404
   - 'get_object_or_404' helps us easily raise 404 Errors
+### Referencing Urls
+- Explanation
+  - movies/urls.py : add app_name="movies" and cut the name 
+  - movies/templates/movies/index.html :add referencing urls through \<a href="{% url 'movies:detail' movie.id %}"\> ... \</a\>
