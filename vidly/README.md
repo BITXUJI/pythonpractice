@@ -149,3 +149,5 @@ Python Django
 - git commit -m "Add Heroku app to allowed hosts."
 - git push heroku master
   - refresh the web page
+###AI
+- to be continued
