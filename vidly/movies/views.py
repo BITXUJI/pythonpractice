@@ -14,3 +14,7 @@ def index(request):
     # Movie.objects.get(id=1)
     # # SELECT * FROM movies_moviw WHERE id=1
     # return HttpResponse(output)
+
+
+def detail(request, movie_id):
+    return HttpResponse(movie_id)

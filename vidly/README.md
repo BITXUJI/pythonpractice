@@ -80,3 +80,8 @@ Python Django
   - Create a fold named templates under . fold and move movies/templates/movie/base.html to templates/ fold 
   - vidly/settings.py : TEMPLATES['DIRS'] is modified to add the path templates/ created above to the search path.
   - So we can share one templates among multiple apps
+### Url Parameters
+- Explanation
+  - target: click on something to see its details
+  - movies/urls.py :Create a new page index
+  - movies/views.py: Create a new page content
